@@ -27,6 +27,9 @@ export HISTSIZE=100000
 export HISTFILESIZE=1000000
 export HISTIGNORE="ls:ps:history"
 
+export GDK_SCALE=2
+export GDK_DPI_SCALE=0.5
+
 export PROMPT_COMMAND='history -a'
 
 export EDITOR=nvim
